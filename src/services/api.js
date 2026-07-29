@@ -5,6 +5,8 @@
 
 const BASE_URL = import.meta.env.VITE_API_URL || 'https://expressreact-3ph8.onrender.com/';
 
+console.log(BASE_URL);
+
 /**
  * Helper fetch dengan default options (credentials: include agar cookie terkirim)
  * Jika body adalah FormData, jangan set Content-Type agar browser atur boundary-nya sendiri
